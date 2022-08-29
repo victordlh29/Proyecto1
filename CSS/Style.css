@@ -1,0 +1,68 @@
+.body{
+    font-family:'Times New Roman', Times, serif ;   
+ background: gray;
+}
+h3{
+    font-size: 20px;
+}
+.h1-container{
+    display: inline;
+}
+.h1-container-div{
+    display: inline;
+    padding: 10px;
+}
+.h1-container h1{
+    display: inline;
+    
+}
+.nav__ul{
+    display: inline;
+    padding-left: 510px;
+}
+.ul-container{
+    display: inline;
+}
+
+
+.nav{
+    background: rgb(136, 9, 186);
+    height: 50px;
+}
+
+.nav__li{
+    display: inline;
+    margin:5px 12px;
+    }
+.nav__li a{
+    text-decoration: none;
+    color: white;
+}
+.nav__li a:hover{
+    color: gray;
+    border-bottom: 2px gray;
+}
+/*
+Diseño de un form
+*/
+
+.form{
+    background:rgb(136, 9, 186);
+    border-radius: 5px;
+    width: 300px;
+    margin: 10px;
+}
+
+.input{
+    background: transparent;
+    resize: none;
+    color: #ffff;
+   
+}
+.input_btn {
+    width: 110px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
+    margin-left: 50%; /*establece el ancho de un elemento*/
+    transform: translateX(-50%);/* reposiciona un elemento horizontalmente en el plano 2D.*/
+    background: transparent;
+    resize: none;
+}
